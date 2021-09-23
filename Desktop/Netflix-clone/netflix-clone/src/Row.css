@@ -1,0 +1,30 @@
+.row_poster {
+  display: flex;
+  overflow-x: show;
+  overflow-y: hidden;
+  padding: 10px;
+
+}
+
+.row_poster::-webkit-scrollbar{
+    display: none;
+}
+
+.poster {
+  width: 100%;
+ 
+  margin-right: 8px;
+  transition: transform 450ms;
+  max-width: 150px;
+}
+
+.poster:hover {
+  transform: scale(1.08);
+}
+
+.row{
+    padding-left: 10px;
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
